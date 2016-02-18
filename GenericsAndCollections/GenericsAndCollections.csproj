@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Month.cs" />
+    <Compile Include="NullableTypesExample.cs" />
+    <Compile Include="ArrayListExample.cs" />
+    <Compile Include="GenericsExamples\GenericStack.cs" />
+    <Compile Include="GenericsExamples\Stack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
