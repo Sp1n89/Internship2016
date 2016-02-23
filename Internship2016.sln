@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsAndCollections", "G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalParadigmAndLINQ", "FunctionalParadigmAndLINQ\FunctionalParadigmAndLINQ.csproj", "{C28F160F-DFB1-4FA1-A6F0-84A46D4BC368}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodingDisposalGarbageCollection", "EncodingDisposalGarbageCollection\EncodingDisposalGarbageCollection.csproj", "{FA8E9399-A51D-499F-8C2A-A4AB9BDA6B1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C28F160F-DFB1-4FA1-A6F0-84A46D4BC368}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C28F160F-DFB1-4FA1-A6F0-84A46D4BC368}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C28F160F-DFB1-4FA1-A6F0-84A46D4BC368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA8E9399-A51D-499F-8C2A-A4AB9BDA6B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8E9399-A51D-499F-8C2A-A4AB9BDA6B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8E9399-A51D-499F-8C2A-A4AB9BDA6B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8E9399-A51D-499F-8C2A-A4AB9BDA6B1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
