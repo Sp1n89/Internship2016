@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using System.Text;
 
 namespace EncodingDisposalGarbageCollection
 {
@@ -73,6 +74,24 @@ namespace EncodingDisposalGarbageCollection
             Console.WriteLine(composite, "Marry", 500);
             Console.WriteLine(composite, "Elizabeth", 20000);
             Console.WriteLine();
+
+            #endregion
+
+            #region StringBuilder
+
+            const string presentation = "STRINGS";
+
+            var sb = new StringBuilder();
+            sb.Append("Good morning");
+            sb.AppendLine();
+            sb.AppendFormat("Today we have a presentation about {0}", presentation);
+
+            sb.Insert(12, "!");
+            sb.Remove(0, 13);
+            sb.Replace("STRINGS", "TYPES");
+
+            Console.WriteLine(sb);
+
 
             #endregion
 
