@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalParadigmAndLINQ",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodingDisposalGarbageCollection", "EncodingDisposalGarbageCollection\EncodingDisposalGarbageCollection.csproj", "{FA8E9399-A51D-499F-8C2A-A4AB9BDA6B1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{FBDB87FE-BBB1-41B0-B74F-4F67C44B1EEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FA8E9399-A51D-499F-8C2A-A4AB9BDA6B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA8E9399-A51D-499F-8C2A-A4AB9BDA6B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA8E9399-A51D-499F-8C2A-A4AB9BDA6B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBDB87FE-BBB1-41B0-B74F-4F67C44B1EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBDB87FE-BBB1-41B0-B74F-4F67C44B1EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBDB87FE-BBB1-41B0-B74F-4F67C44B1EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBDB87FE-BBB1-41B0-B74F-4F67C44B1EEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
